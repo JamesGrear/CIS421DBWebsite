@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2018, 11:06:16 AM
+    Author     : james
+*/
+
+@font-face{
+    font-family: "BigNoodleToo";
+    src: url("CSS/Fonts/BigNoodleToo.ttf");
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:url("../Images/Overwatch.jpg");
+    background-size:cover;
+}
+/*deals with the entire webpage*/
+#content{
+    border: 2px solid black;
+    width: 70%;
+    background-color: #f99e1a;
+    margin: 24px auto;
+    font-size: 17px;
+}
+
+#bugs{
+    padding: 20px;
+}
+/*deals with uppermost header on the page*/
+
+nav{
+     font-family: Arial;
+     width:100%;
+     height: 60px;
+     background-color: #f99e1a;
+}
+
+#header{
+    border-width: 2px;
+    border-style:solid;
+    background-color: #43484c;
+    text-align: center;
+    color:white;
+    
+}
+
+nav ul{   
+    float:left;
+}
+nav ul li{
+    list-style: none;
+    border: none;
+    line-height: 55px;
+    text-align: center;
+    float:left;
+}
+
+nav ul li a{
+    font-size: 17px;
+    color:black;
+    padding: 0px 22px;
+    display:block;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display:none;
+    position: absolute;
+    background-color: #f99e1a;
+}
+
+nav ul li{
+    position: relative;
+    
+}   
+
+nav ul li:hover ul {
+    display:block;
+}
+
+nav ul li ul li{
+    width: 110px;
+}
+
+nav ul li ul li{
+    padding: 8px 0px;
+}
+
+nav ul li ul li a:hover{
+    background-color: white;
+}
+#txtr{
+   text-align: center;
+   padding: 10px;
+}
+
+#supdrop{
+    width: 100%;
+}
+
+footer{
+    color:black;
+}
+
