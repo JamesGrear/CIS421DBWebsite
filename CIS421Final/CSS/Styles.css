@@ -34,15 +34,16 @@ body {
 #bugs{
     padding: 20px;
 }
-/*deals with uppermost header on the page*/
+
 
 nav{
      font-family: Arial;
      width:100%;
-     height: 60px;
+     height: 55px;
      background-color: #f99e1a;
 }
 
+/*deals with uppermost header on the page*/
 #header{
     border-width: 2px;
     border-style:solid;
@@ -52,6 +53,7 @@ nav{
     
 }
 
+/*deals with the creation of the navigation menu incorporated into each page*/
 nav ul{   
     float:left;
 }
@@ -74,13 +76,15 @@ nav ul li a{
 nav ul li ul {
     display:none;
     position: absolute;
-    background-color: #f99e1a;
+    background-color: white;
+    border-radius: 4px;
 }
 
 nav ul li{
     position: relative;
     
 }   
+
 
 nav ul li:hover ul {
     display:block;
@@ -95,18 +99,76 @@ nav ul li ul li{
 }
 
 nav ul li ul li a:hover{
-    background-color: white;
+    background-color: grey;
 }
 #txtr{
    text-align: center;
    padding: 10px;
 }
 
+/*decide the length of the drop down menu's*/
 #supdrop{
     width: 100%;
 }
 
+#Odrop{
+    width: 100%;
+}
+
+#Ddrop{
+    width: 100%;
+}
+
+#Tdrop{
+    width: 100%;
+}
+
+/*sets aside the size margins for fields in the login page*/
+.column{
+    width: 35%;
+    float:left;
+    height: 100%;
+    border-right: 2px solid black;
+  
+}
+
+.column2{
+    width: 64.74%;
+    float:left;
+    height: 100%;
+}
+
+#login{
+    border: 2px solid black;
+    border-style: solid;
+    height:35%;
+    width: 70%;
+    margin: 220px auto;
+    font-size: 17px;
+}
+
+label{
+    display:inline-block;
+    font-size: 20px;
+    width: 200px;
+   
+}
+
+#old{
+    display:inline-block;
+    width: 7em;
+}
+
+#old2{
+    display:inline-block;
+    width: 7em;
+
+}
+
+/*styled ending at the end of each page*/
 footer{
+    clear:both;
+    border-top: 2px solid black;
     color:black;
 }
 
