@@ -28,6 +28,7 @@
                 <h1><em>YOUR OWN PERSONALIZED DATABASE!</em></h1>
             </div>
             
+            <form id="FormOff" name="FormOff" method ="post" action="Ranking.php">
             <select id="Odrop">
                 <option>Doomfist </option>
                 <option>Genji</option>
@@ -43,7 +44,9 @@
             <input type="text" id="Offtxt" >
             <input type="text" id="Offtxt2" >
             <input type="text" id="Offtxt3" >
+            <input type="submit" value ="submit" id="sbmtoff" name="sbmtoff">
            </div>
+            </form>
         </div>
 <?php
 

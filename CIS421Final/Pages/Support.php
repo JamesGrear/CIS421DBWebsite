@@ -28,6 +28,7 @@
                 <h1><em>YOUR OWN PERSONALIZED DATABASE!</em></h1>
             </div>
             
+            <form id="FormSup" name="FormSup" method ="post" action="Ranking.php">
             <select id="supdrop">
                 <option>Ana </option>
                 <option>Brigitte</option>
@@ -42,7 +43,9 @@
             <input type="text" id="suptxt" >
             <input type="text" id="suptxt2" >
             <input type="text" id="suptxt3" >
+            <input type="submit" value ="submit" id="sbmtsup" name="sbmtsup">
            </div>
+            </form>
         </div>
        
 <?php
