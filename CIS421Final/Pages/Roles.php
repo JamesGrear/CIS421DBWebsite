@@ -13,17 +13,16 @@
              <ul>
                  <li><a href ="../index.php">Home</a></li>
                  <li><a href="Ranking.php">Ranking</a></li>
-                 <li><a href ='Roles'>Game</a></li>
+                 <li><a href ="Login.php">Game</a></li>
              </ul>
         </nav>     
         
-        <form id="FormRoles" name="FormRoles" method ="post" action="Ranking.php">
+        <form id="FormRoles" name="FormRoles" method ="post" action="Stats.php">
         <div id="content">
             <div id="header">
                 <h1><em>YOUR OWN PERSONALIZED DATABASE!</em></h1>
             </div>
     <p align="center"> Information highlighted in green relates to the game, otherwise information entered correlates to your hero</p>
-            <form id="FormOff" name="FormOff" method ="post" action="Ranking.php">
                 <p><h2 align="center"> 1. Choose your role </h2></p>
             <select id="RDrop" onchange="showdrop()">
                 <option value="0" id="non">-- Select Role --</option>
@@ -91,33 +90,9 @@
             </select>
             </div>
             <br><br>
-           <div id="txtr">
-            <div id="gam">
-                <p><h4 align="center"> Enter GameID </h4></p>
-                <input type="text" id="roltxt">
-                <br>
-                <p><h4 align="center"> Enter Map</h4></p>
-                <input type="text" id="roltxt">
-                <p><h4 align="center"> Enter Time Played </h4></p>
-                <input type="text" id="roltxt">
-            </div>
-               <br>
-            <p><h4 align="center"> Enter Damage </h4></p>
-            <input type="text" id="roltxt">
-            <p><h4 align="center"> Enter Healing </h4></p>
-            <input type="text" id="roltxt">
-            <p><h4 align="center"> Enter Time Played </h4></p>
-            <input type="text" id="roltxt">
-            <p><h4 align="center"> Enter Kills </h4></p>
-            <input type="text" id="roltxt">
-            <p><h4 align="center"> Enter Deaths </h4></p>
-            <input type="text" id="roltxt">
-            <p><h4 align="center"> Enter Games Won </h4></p>
-            <input type="text" id="roltxt">
             <input type="submit" value ="submit" id="sbmtrol" name="sbmtrol">
-           </div>
-        </form>
         </div>
+        </form>
 <?php
 
 ?>

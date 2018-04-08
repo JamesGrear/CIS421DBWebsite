@@ -18,7 +18,7 @@ and open the template in the editor.
              <ul>
                  <li><a href ="index.php">Home</a></li>
                  <li><a href="Pages/Ranking.php">Ranking</a></li>
-                 <li><a href ="Pages/Roles.php">Game</a>
+                 <li><a href ="Pages/Login.php">Game</a>
                  </li>
              </ul>
         </nav>  

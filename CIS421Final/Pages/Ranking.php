@@ -12,7 +12,7 @@
              <ul>
                  <li><a href ="../index.php">Home</a></li>
                  <li><a href="Ranking.php">Ranking</a></li>
-                 <li><a href ="Roles.php">Game</a></li>
+                 <li><a href ="Login.php">Game</a></li>
              </ul>
         </nav>     
 <?php

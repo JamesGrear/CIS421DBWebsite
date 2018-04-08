@@ -78,10 +78,6 @@ nav ul li a{
     width: 100%;
 }
 
-#txtr{
-    width: 300px;
-    margin: auto;
-}
 #gam{
     border-width: 2px;
     border-style:solid;
@@ -91,32 +87,33 @@ nav ul li a{
    width: 100%;
 }
 #sbmtrol{
-    margin: 30px;
+    margin:  10px 374px;
     padding: 12px 90px;
     font-size: 16px;
 }
-
-
-/*sets aside the size margins for fields in the login page*/
-.column{
-    width: 35%;
-    float:left;
-    height: 100%;
-    border-right: 2px solid black;
-  
+/*for the stats page*/
+#txtr{
+    width: 300px;
+    margin: auto;
 }
 
+#sbmtstat{
+    margin:  10px 40px;
+    padding: 12px 90px;
+    font-size: 16px;
+}
+/*sets aside the size margins for fields in the login page*/
+
 .column2{
-    width: 64.74%;
-    float:left;
+    width: 100%;
     height: 100%;
 }
 
 #login{
     border: 2px solid black;
     border-style: solid;
-    height:35%;
-    width: 70%;
+    height:30%;
+    width: 40%;
     margin: 220px auto;
     font-size: 17px;
 }
@@ -128,16 +125,33 @@ label{
    
 }
 
-#old{
-    display:inline-block;
-    width: 7em;
-}
-
+/*distance from label to dropdown*/
 #old2{
     display:inline-block;
     width: 7em;
 
 }
+
+/*distance from label to text field*/
+#old{
+    display:inline-block;
+    width: 7em;
+}
+
+/*length of text field and dropdown menu*/
+#olduse{
+    width: 278px;
+}
+#new{
+    width: 278px;
+}
+
+#sbmtuse{
+  margin:0 145px;
+  padding: 10px 24px;
+  width: 278px;
+}
+
 
 /*styled ending at the end of each page*/
 footer{
