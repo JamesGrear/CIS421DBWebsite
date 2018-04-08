@@ -23,6 +23,7 @@
              </ul>
         </nav>     
         
+        <form id="FormTan" name="FormTan" method ="post" action="Ranking.php">
         <div id="content">
             <div id="header">
                 <h1><em>YOUR OWN PERSONALIZED DATABASE!</em></h1>
@@ -41,7 +42,9 @@
             <input type="text" id="tantxt" >
             <input type="text" id="tantxt2" >
             <input type="text" id="tantxt3" >
+            <input type="submit" value ="submit" id="sbmtdef" name="sbmtdef">
            </div>
+        </form>
         </div>
 <?php
 

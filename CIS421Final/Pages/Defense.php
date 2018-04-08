@@ -23,11 +23,13 @@
              </ul>
         </nav>     
         
+        <form id="FormDef" name="FormDef" method ="post" action="Ranking.php">
         <div id="content">
             <div id="header">
                 <h1><em>YOUR OWN PERSONALIZED DATABASE!</em></h1>
             </div>
             
+            <form id="FormOff" name="FormOff" method ="post" action="Ranking.php">
             <select id="Ddrop">
                 <option>Bastion </option>
                 <option>Hanzo</option>
@@ -41,7 +43,9 @@
             <input type="text" id="deftxt" >
             <input type="text" id="deftxt2" >
             <input type="text" id="deftxt3" >
+            <input type="submit" value ="submit" id="sbmtdef" name="sbmtdef">
            </div>
+        </form>
         </div>
 <?php
 
