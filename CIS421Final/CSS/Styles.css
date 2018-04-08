@@ -73,55 +73,29 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav ul li ul {
-    display:none;
-    position: absolute;
-    background-color: white;
-    border-radius: 4px;
+/*Roles page functionality starts here*/
+#RDrop{
+    width: 100%;
 }
 
-nav ul li{
-    position: relative;
-    
-}   
-
-
-nav ul li:hover ul {
-    display:block;
-}
-
-nav ul li ul li{
-    width: 110px;
-}
-
-nav ul li ul li{
-    padding: 8px 0px;
-}
-
-nav ul li ul li a:hover{
-    background-color: grey;
-}
 #txtr{
-   text-align: center;
-   padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+#gam{
+    border-width: 2px;
+    border-style:solid;
+    background-color: greenyellow;
+}
+#roltxt{
+   width: 100%;
+}
+#sbmtrol{
+    margin: 30px;
+    padding: 12px 90px;
+    font-size: 16px;
 }
 
-/*decide the length of the drop down menu's*/
-#supdrop{
-    width: 100%;
-}
-
-#Odrop{
-    width: 100%;
-}
-
-#Ddrop{
-    width: 100%;
-}
-
-#Tdrop{
-    width: 100%;
-}
 
 /*sets aside the size margins for fields in the login page*/
 .column{
