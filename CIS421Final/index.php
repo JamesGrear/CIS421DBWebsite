@@ -18,13 +18,7 @@ and open the template in the editor.
              <ul>
                  <li><a href ="index.php">Home</a></li>
                  <li><a href="Pages/Ranking.php">Ranking</a></li>
-                 <li><a href ='#'>Roles</a>
-                    <ul>
-                        <li><a href ="Pages/Support.php">Support</a></li>
-                        <li><a href ="Pages/Offense.php">Offense</a></li>
-                        <li><a href ="Pages/Defense.php">Defense</a></li>
-                        <li><a href ="Pages/Tanks.php">Tank</a></li>
-                    </ul> 
+                 <li><a href ="Pages/Roles.php">Game</a>
                  </li>
              </ul>
         </nav>  
